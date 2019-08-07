@@ -1,5 +1,5 @@
 # equaliseRMS
-Equalise RMS of given sound files
+Equalise root mean square of given sound files
 
 ## How to use? 
 1. Put your sound files (in .wav format) in the folder 'Sounds'. (By default, the folder contains five example sounds I made.)
