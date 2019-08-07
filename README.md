@@ -6,4 +6,4 @@ Equalise RMS of given sound files
 2. Run 'equaliseRMS.m'. 
 3. RMS equalised sound files will be saved in a new folder 'Output'.
 
-* The target RMS value for all sounds is set as the minimum RMS value of all sounds in the folder 'Sounds'. You can change it to any number you want. But if you see 'clipping' warning, please decrease this target value.
+Note: The target RMS value for all sounds is set as the minimum RMS value of all sounds in the folder 'Sounds'. You can change it to any number you want. But if you see 'clipping' warning, please decrease this target value.
