@@ -14,7 +14,8 @@ for s = 1:numel(files)
     x_rms(s) = rms(signal);
 end
 
-target_rms = 0.1; %% Hard coded! Please make sure this value is ok.
+target_rms = min(x_rms); 
+
 for s = 1:length(files)
     filename = [path_in files(s).name];
     [signal,fs] = audioread(filename);
